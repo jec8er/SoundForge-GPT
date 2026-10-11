@@ -1,9 +1,9 @@
 # SoundForge — part of SaborClick Studio
 
-SoundForge is implemented inside the unified application at [jec8er/SAlesC](https://github.com/jec8er/SAlesC), in `app/studio.tsx` and `lib/domain.ts`.
+The active module is maintained in [jec8er/SAlesC](https://github.com/jec8er/SAlesC), under `src/studio.tsx` and `lib/domain.ts`.
 
-Features: template-assisted English/Spanish launch scripts based on actual product facts; editable scripts; browser microphone recording; script and audio downloads. Scripts and audio are tab-local until downloaded. AI voice generation, autonomous agents and publishing are not connected.
+Features: editable English/Spanish product launch scripts, browser microphone recording, and script/audio downloads. Templates use supplied facts; AI voice generation and automatic publishing are not connected.
 
-Owner-private application: https://saborclick-studio-jec8er.jec9718.chatgpt.site
+The unified application now runs directly from GitHub source with React/Vite, Express and SQLite, independent of Sites. Follow the canonical repository README to install, configure owner access and start it locally or on a server.
 
-This repository was empty before consolidation. Maintain the module in the canonical SAlesC repository to avoid divergent versions.
+This repository was originally empty. Maintain SoundForge in the canonical project to avoid divergent copies.
